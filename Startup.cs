@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AnalyzeImageAPI.Helpers;
 using DetectFacesAPI.Data;
 using DetectFacesAPI.Repository;
 using Microsoft.AspNetCore.Builder;
@@ -39,6 +40,7 @@ namespace DetectFacesAPI
             services.AddDbContext<AnalyzeImageDBContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddScoped<IAnalyzeRepository, AnalyzeRepository>();
+            services.AddScoped<Helpers>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
