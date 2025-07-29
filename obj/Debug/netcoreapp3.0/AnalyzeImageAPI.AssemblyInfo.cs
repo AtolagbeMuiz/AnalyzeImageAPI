@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnalyzeImageAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+683890b9fba6398addaac820e3faaaf69a785cfb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e7aba5723b9e6ed9e85a0c0c61c7e9248111bde")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnalyzeImageAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnalyzeImageAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
